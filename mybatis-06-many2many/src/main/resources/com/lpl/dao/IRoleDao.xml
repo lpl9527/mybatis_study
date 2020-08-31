@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--指定名称空间为dao接口全限定类名-->
+<mapper namespace="com.lpl.dao.IRoleDao">
+    
+    <resultMap id="roleMap" type="Role">
+        <id property="roleId" column="rid"/>
+        <result property="roleName" column="role_name"/>
+        <result property="roleDesc" column="role_desc"/>
+        <!-- 封装user表 -->
+        <collection property="users" ofType="User">
+            <id property="id" column="id"/>
+            <result property="username" column="username"/>
+            <result property="sex" column="sex"/>
+            <result property="address" column="address"/>
+            <result property="birthday" column="birthday"/>
+        </collection>
+    </resultMap>
+
+    <!--查询所有角色，包含该角色下的所有用户-->
+    <select id="findAll" resultMap="roleMap">
+        select r.id as rid, r.role_name, r.role_desc ,u.* from role r
+	        left join user_role ur on r.id = ur.rid
+	        left join user u on u.id = ur.uid
+    </select>
+
+</mapper>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--指定名称空间为dao接口全限定类名-->
+<mapper namespace="com.lpl.dao.IAccountDao">
+
+    <!--定义封装account和user的resultMap-->
+    <resultMap id="accountUserMap" type="Account">
+        <id property="id" column="id"/>
+        <result property="uid" column="uid"/>
+        <result property="money" column="money"/>
+
+        <!--
+            一对一的关系映射：配置封装user的属性
+            select 属性指定了延迟加载（真正需要数据的时候才加载，懒加载，适用于一对多、多对多查询）
+            column 属性指定查询时account表传递来的参数
+        -->
+        <association property="user" column="uid" javaType="User" select="com.lpl.dao.IUserDao.findById"/>
+    </resultMap>
+
+    <!--查询所有用户，同时包含所属用户信息-->
+    <select id="findAll" resultMap="accountUserMap">
+        select * from account
+    </select>
+
+    <!--根据用户id查询用户下的所有账户-->
+    <select id="findByUid" parameterType="java.lang.Integer" resultType="Account">
+        select * from account where uid = #{uid}
+    </select>
+
+</mapper>

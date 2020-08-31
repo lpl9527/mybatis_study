@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--指定名称空间为dao接口全限定类名-->
+<mapper namespace="com.lpl.dao.IUserDao">
+
+    <!--配置查询结果的列名和实体类的属性名的映射-->
+    <resultMap id="userMap" type="com.lpl.bean.User">
+        <!-- 主键字段的对应 -->
+        <id property="id" column="id"/>
+        <!-- 非主键字段的对应 -->
+        <result property="username" column="username"/>
+        <result property="sex" column="sex"/>
+        <result property="address" column="address"/>
+        <result property="birthday" column="birthday"/>
+    </resultMap>
+
+    <!--抽取公共sql片段-->
+    <sql id="selectUser">
+        select * from user
+    </sql>
+
+    <!--查询所有用户-->
+    <select id="findAll" resultType="User">
+        <include refid="selectUser" />
+        <!-- select * from user -->
+    </select>
+
+    <!--根据id查询用户-->
+    <select id="findById" parameterType="java.lang.Integer" resultMap="userMap">
+        select * from user where id = #{uid}
+    </select>
+
+    <!--根据用户名称模糊查询用户-->
+    <select id="findByName" parameterType="java.lang.String" resultType="com.lpl.bean.User">
+        select * from user where username like #{username}
+    </select>
+
+    <!--根据封装的条件查询用户-->
+    <select id="findUserByVo" parameterType="com.lpl.bean.QueryVo" resultMap="userMap">
+        select * from user where username like #{user.username}
+    </select>
+
+    <!--根据查询条件查询用户-->
+    <select id="findUserByCondition" parameterType="User" resultType="User">
+        select * from user
+        <where>
+            <if test="username != null and username != '' ">
+                and username like #{username}
+            </if>
+            <if test="sex != null and sex != '' ">
+                and sex = #{sex}
+            </if>
+        </where>
+    </select>
+
+    <!--查询id在列表中的用户-->
+    <select id="findUserInIds" parameterType="QueryVo" resultType="User">
+        select * from user
+        <where>
+            <choose>
+                <when test="ids != null and ids.size>0">
+                    and id in
+                    <foreach collection="ids" open="(" close=")" item="id" separator=",">
+                        #{id}
+                    </foreach>
+                </when>
+                <otherwise>
+                    and 1 != 1
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+
+</mapper>

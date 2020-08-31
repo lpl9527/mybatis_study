@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--指定名称空间为dao接口全限定类名-->
+<mapper namespace="com.lpl.dao.IUserDao">
+
+    <!--定义User的resultMap-->
+    <resultMap id="userAccountMap" type="User">
+        <id property="id" column="id"/>
+        <result property="username" column="username"/>
+        <result property="sex" column="sex"/>
+        <result property="address" column="address"/>
+        <result property="birthday" column="birthday"/>
+
+        <!--
+            配置User对象中Account对象集合的映射
+            实现一对多延迟加载
+            column属性为查询条件
+            select 属性为延迟查询的查询方法
+        -->
+        <collection property="accounts" column="id" ofType="Account" select="com.lpl.dao.IAccountDao.findByUid"/>
+    </resultMap>
+    
+
+    <!--查询所有用户，包含该用户下的所有账户信息-->
+    <select id="findAll" resultMap="userAccountMap">
+        select * from user
+    </select>
+
+    <!--根据用户id查询用户-->
+    <select id="findById" resultType="User" parameterType="java.lang.Integer">
+        select * from user where id = #{id}
+    </select>
+
+</mapper>

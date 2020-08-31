@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f4749d8-241f-4a3d-bc3d-133e9d9aad36" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a2LQZCTIWoeTQjZ68X7OCaT6CX" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lpl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SecondLevelCacheTest.secondLevelCacheTest">
+    <configuration name="SecondLevelCacheTest.secondLevelCacheTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-09-cache" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lpl" />
+      <option name="MAIN_CLASS_NAME" value="com.lpl.SecondLevelCacheTest" />
+      <option name="METHOD_NAME" value="secondLevelCacheTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.firstLevelCacheTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-09-cache" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lpl" />
+      <option name="MAIN_CLASS_NAME" value="com.lpl.UserTest" />
+      <option name="METHOD_NAME" value="firstLevelCacheTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SecondLevelCacheTest.secondLevelCacheTest" />
+        <item itemvalue="JUnit.UserTest.firstLevelCacheTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f4749d8-241f-4a3d-bc3d-133e9d9aad36" name="Default Changelist" comment="" />
+      <created>1585928726196</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585928726196</updated>
+      <workItem from="1585928729534" duration="3125000" />
+      <workItem from="1585978021643" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="505" y="118" key="FileChooserDialogImpl" timestamp="1585978050377">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="505" y="118" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1585978050377" />
+    <state width="1496" height="640" key="GridCell.Tab.0.bottom" timestamp="1585931858248">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="640" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1585931858248" />
+    <state width="1496" height="640" key="GridCell.Tab.0.center" timestamp="1585931858247">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="640" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1585931858247" />
+    <state width="1496" height="640" key="GridCell.Tab.0.left" timestamp="1585931858246">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="640" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1585931858246" />
+    <state width="1496" height="640" key="GridCell.Tab.0.right" timestamp="1585931858248">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="640" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1585931858248" />
+    <state width="1496" height="640" key="GridCell.Tab.1.bottom" timestamp="1585931858249">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="640" key="GridCell.Tab.1.bottom/0.0.1549.831@0.0.1549.831" timestamp="1585931858249" />
+    <state width="1496" height="640" key="GridCell.Tab.1.center" timestamp="1585931858249">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="640" key="GridCell.Tab.1.center/0.0.1549.831@0.0.1549.831" timestamp="1585931858249" />
+    <state width="1496" height="640" key="GridCell.Tab.1.left" timestamp="1585931858248">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="640" key="GridCell.Tab.1.left/0.0.1549.831@0.0.1549.831" timestamp="1585931858248" />
+    <state width="1496" height="640" key="GridCell.Tab.1.right" timestamp="1585931858249">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="640" key="GridCell.Tab.1.right/0.0.1549.831@0.0.1549.831" timestamp="1585931858249" />
+  </component>
+</project>

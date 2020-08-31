@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="65cdcb89-88b7-4f23-8929-8c095e84b324" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZwOVas5FSJMCJrigxsjR95uSeg" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunManager" selected="JUnit.MybatisTest.findAllTest">
+    <configuration name="MybatisTest.findAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mtbatis-05-dynamicSQL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lpl" />
+      <option name="MAIN_CLASS_NAME" value="com.lpl.MybatisTest" />
+      <option name="METHOD_NAME" value="findAllTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.findByConditionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mtbatis-05-dynamicSQL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lpl" />
+      <option name="MAIN_CLASS_NAME" value="com.lpl.MybatisTest" />
+      <option name="METHOD_NAME" value="findByConditionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.findByVoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mtbatis-05-dynamicSQL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lpl" />
+      <option name="MAIN_CLASS_NAME" value="com.lpl.MybatisTest" />
+      <option name="METHOD_NAME" value="findByVoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.findUserInIdsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mtbatis-05-dynamicSQL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lpl" />
+      <option name="MAIN_CLASS_NAME" value="com.lpl.MybatisTest" />
+      <option name="METHOD_NAME" value="findUserInIdsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MybatisTest.findAllTest" />
+        <item itemvalue="JUnit.MybatisTest.findUserInIdsTest" />
+        <item itemvalue="JUnit.MybatisTest.findByConditionTest" />
+        <item itemvalue="JUnit.MybatisTest.findByVoTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65cdcb89-88b7-4f23-8929-8c095e84b324" name="Default Changelist" comment="" />
+      <created>1585746714279</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585746714279</updated>
+      <workItem from="1585746715620" duration="3520000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="536" y="37" key="#com.intellij.ide.util.MemberChooser" timestamp="1585748348885">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="536" y="37" key="#com.intellij.ide.util.MemberChooser/0.0.1549.831@0.0.1549.831" timestamp="1585748348885" />
+    <state width="1496" height="200" key="GridCell.Tab.0.bottom" timestamp="1585750238337">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="200" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1585750238337" />
+    <state width="1496" height="200" key="GridCell.Tab.0.center" timestamp="1585750238337">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="200" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1585750238337" />
+    <state width="1496" height="200" key="GridCell.Tab.0.left" timestamp="1585750238337">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="200" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1585750238337" />
+    <state width="1496" height="200" key="GridCell.Tab.0.right" timestamp="1585750238337">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="200" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1585750238337" />
+    <state width="1496" height="640" key="GridCell.Tab.1.bottom" timestamp="1585750238334">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="640" key="GridCell.Tab.1.bottom/0.0.1549.831@0.0.1549.831" timestamp="1585750238334" />
+    <state width="1496" height="640" key="GridCell.Tab.1.center" timestamp="1585750238334">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="640" key="GridCell.Tab.1.center/0.0.1549.831@0.0.1549.831" timestamp="1585750238334" />
+    <state width="1496" height="640" key="GridCell.Tab.1.left" timestamp="1585750238334">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="640" key="GridCell.Tab.1.left/0.0.1549.831@0.0.1549.831" timestamp="1585750238334" />
+    <state width="1496" height="640" key="GridCell.Tab.1.right" timestamp="1585750238334">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="640" key="GridCell.Tab.1.right/0.0.1549.831@0.0.1549.831" timestamp="1585750238334" />
+    <state x="0" y="71" key="new project wizard" timestamp="1585750238255">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="0" y="71" key="new project wizard/0.0.1549.831@0.0.1549.831" timestamp="1585750238255" />
+  </component>
+</project>

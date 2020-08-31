@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<!--mybatis全局配置文件-->
+<configuration>
+
+    <!--配置properties，可以在标签内部定义属性信息，也可以引入外部配置-->
+    <properties resource="jdbc.properties" />
+
+    <!--配置参数-->
+    <settings>
+        <!--开启Mybatis延迟加载开关-->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="false"/>
+    </settings>
+
+    <!--配置别名-->
+    <typeAliases>
+        <!--用于指定要配置别名的包，当指定之后，该包下的所有类都会注册别名，并且别名就是类名，不区分大小写-->
+        <package name="com.lpl.bean"/>
+    </typeAliases>
+
+    <!--配置环境-->
+    <environments default="mysql">
+        <!--mysql环境配置-->
+        <environment id="mysql">
+            <!--配置事务管理器-->
+            <transactionManager type="JDBC" />
+            <!--配置数据源-->
+            <!-- mybatis提供了3种连接池配置：
+                    POOLED:采用传统javax.sql.DataSource规范的连接池。
+                    UNPOOLED:也实现了javax.sql.DataSource接口，但是不具有池的思想。
+                    JNDI:采用服务器提供的JNDI技术实现，如果不是web或者maven的war工程，是不能使用的。
+                        tomcat服务器采用的是dbcp连接池。
+                -->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+
+    </environments>
+
+    <!--配置映射文件的位置-->
+    <mappers>
+       <!-- <mapper resource="com/lpl/dao/IUserDao.xml" />-->
+        <!--package标签用于指定dao接口所在的包，由于dao接口与映射文件所在包结构相同，所以可以找到映射文件位置-->
+        <package name="com.lpl.dao"/>
+    </mappers>
+
+</configuration>
